@@ -17,19 +17,19 @@ const Jumbotron = () => {
             {/*membuat ke tengah*/}
             <div className="space-y-8">
               {/*Y itu adalah atas bawah*/}
-              <p className=" motion-preset-slide-right motion-duration-2000 font-semibold text-amber-400">
-                Hey, <span className="text-white-800">I am Rizky Agung Nugroho</span>
+              <p className=" motion-preset-slide-right motion-duration-2000 font-semibold text-amber-400 ml-5">
+                Hey I am Rizky Agung Nugroho
               </p>
               <p className=" motion-preset-slide-right motion-duration-2000 text-5xl font-semibold text-[#D6D6D6]">
                 {" "}
-                <span className=" text-white-300">
+                <span className=" text-white-300 ml-5">
                   Full-Stack Web Developer <br />
                 </span>
                 {""}
               </p>
-              <p className="motion-preset-typewriter-[24] text-[#eeeeee]">Weclome to my Personal website</p>
+              <p className="motion-preset-typewriter-[24] text-[#eeeeee] ml-5">Weclome to my Personal website</p>
               <Link href="https://api.whatsapp.com/send?phone=6282243969805">
-                <Button className=" bg-white/10 text-amber-400 mt-6">Hire Me</Button>
+                <Button className=" bg-white/10 text-amber-400 mt-6 ml-5">Hire Me</Button>
               </Link>
             </div>
           </div>
