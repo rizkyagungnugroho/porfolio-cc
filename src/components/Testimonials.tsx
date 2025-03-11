@@ -40,7 +40,7 @@ const testimonials = [
     id: 5,
     name: "Luciana Smith",
     comment: "One word that describe everything, Wonderful!",
-    image: "/person/person5.jpg",
+    image: "https://randomuser.me/api/portraits/women/64.jpg",
     rating: 5,
   },
 ];

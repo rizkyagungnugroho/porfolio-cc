@@ -33,9 +33,16 @@ const Jumbotron = () => {
               </Link>
             </div>
           </div>
-          {/*KOLOM2!*/}
-          <div className="relative h-[300px] w-full motion-preset-slide-right motion-duration-2000"></div>
-        </div>
+          {/*KOLOM2!*/} 
+          <div className="relative h-[300px] w-full">
+            <Image
+              src="/fp.png"
+              alt="person-profile-picture"
+              objectFit="contain"
+              fill
+            />
+          </div>
+          </div>
       </div>
     </section>
   );

@@ -36,7 +36,7 @@ export default function Skills() {
             </motion.div>
           ))}
         </div>
-
+          <div>
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white mt-12 mb-6"></h2>
         <h2 className="text-3xl font-bold text-white dark:text-white mt-12 mb-6">Back-End</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 ml-5 ">
@@ -45,9 +45,13 @@ export default function Skills() {
               <div className="text-5xl mb-2">{tool.icon}</div>
               <p className="text-lg font-semibold text-gray-700 dark:text-gray-200">{tool.name}</p>
             </motion.div>
+            
           ))}
         </div>
       </div>
+      </div>
     </div>
+    
+    
   );
 }

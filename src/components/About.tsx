@@ -20,13 +20,13 @@ const About = () => {
 
         {/* KOLOM 2 - TEKS (KANAN) */}
         <div className="w-[500px] text-left">
-          <h2 className="text-5xl font-semibold text-amber-400">About Me</h2>
-          <p className="text-white py-5">
+          <h2 className="text-5xl font-semibold text-amber-400 motion-preset-slide-right motion-duration-2000">About Me</h2>
+          <p className="text-white py-5 motion-preset-slide-right motion-duration-2000">
             Hi Everyone! My name is Rizky Agung Nugroho. <br />
             I am a web developer from Yogyakarta, DIY, <br />
             with 1 year of experience in full-stack web development.
           </p>
-          <p className="text-white mt-4">
+          <p className="text-white mt-4 motion-preset-slide-left motion-duration-2000">
             I specialize in building functional, user-friendly, and visually appealing websites. <br />
             My approach includes adding a personal touch to your product, <br />
             ensuring that your website stands out while remaining easy to use. <br />

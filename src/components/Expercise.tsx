@@ -3,7 +3,7 @@ import React from "react";
 
 const Expercise = () => {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center bg-[#222222] overflow-hidden">
+    <section className="relative  flex flex-col justify-center bg-[#222222] overflow-hidden">
       <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
         <div className="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
           <div className="w-full max-w-3xl mx-auto">

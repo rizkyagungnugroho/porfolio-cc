@@ -30,7 +30,8 @@ const descriptions = [
 
 const Portfolio = () => {
   return (
-    <div className="flex flex-col items-center min-h-[75vh] p-6 motion-preset-slide-right motion-duration-2000 font-semibold bg-[#222222]" id="porfolio">
+    <div className="flex flex-col items-center motion-preset-slide-right motion-duration-2000 font-semibold bg-[#222222]" id="porfolio">
+
       <h2 className="text-3xl font-bold mb-6  text-amber-300">My Porfolio</h2>
       <div className="flex flex-wrap justify-center gap-6">
         {components.map((component, index) => (

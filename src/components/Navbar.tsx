@@ -1,17 +1,26 @@
 "use client";
 import Image from "next/image";
 import { Button } from "./ui/button";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#222222]">
-      <nav className="container mx-auto py-4">
+    <div className="bg-[#222222] ">
+      <nav className=" container mx-auto ">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Image src="/logo.png" alt="Logo" width={187} height={40} />
+          <div>
+            <Image src="/logo.png" alt="Logo" width={187} height={40} />
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6 px-6 py-2 bg-white/10 backdrop-blur-md rounded-2xl shadow-md text-amber-300 font-semibold">
@@ -39,9 +48,14 @@ const Navbar = () => {
           </div>
 
           {/* Contact Button */}
-          <Button variant="outline" className=" bg-white/10 hidden md:block  text-amber-400 hover:text-[#222222]">
-            Contact Me
-          </Button>
+          <div>
+            <Button
+              variant="outline"
+              className=" bg-white/10 hidden md:block  text-amber-400 hover:text-[#222222] mr-20"
+            >
+              Contact Me
+            </Button>
+          </div>
 
           {/* Mobile Menu */}
           <DropdownMenu>
