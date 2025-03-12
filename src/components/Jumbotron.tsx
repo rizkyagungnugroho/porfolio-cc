@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Jumbotron = () => {
   return (
-    <section className="bg-[#222222] p-16 px-4 py-24 dark:bg-transparent">
+    <section className="bg-[#222222] p-16 px-4 py-24">
       {" "}
       {/*py(padding atas bawah)*/}
       <div className="container m-auto">

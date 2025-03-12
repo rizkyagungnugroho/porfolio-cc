@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-6 px-6 py-2 bg-white/10 backdrop-blur-md rounded-2xl shadow-md text-amber-300 font-semibold">
             <p className="cursor-pointer">Home</p>
             <p>
-              <a href="#portfolio" className="hover:text-white">
+              <a href="#porfolio" className="hover:text-white">
                 Portfolio
               </a>
             </p>
@@ -51,9 +51,8 @@ const Navbar = () => {
           <div>
             <Button
               variant="outline"
-              className=" bg-white/10 hidden md:block  text-amber-400 hover:text-[#222222] mr-20"
-            >
-              Contact Me
+              className=" bg-white/10 hidden md:block  text-amber-400 hover:text-[#222222] mr-20">  
+              <Link href="#contact">Contact Me</Link>
             </Button>
           </div>
 
